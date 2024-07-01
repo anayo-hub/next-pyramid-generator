@@ -18,11 +18,12 @@ yarn dev
 pnpm dev
 # or
 bun dev
-
+```
 
 Open http://localhost:3000 with your browser to see the result.
 
-Usage
+## Usage
+
 Open the application in your browser.
 Enter a height value between 1 and 8 in the input field.
 Click the "Generate Pyramid" button.
@@ -30,7 +31,8 @@ The pyramid will be displayed below the form.
 Implementation Details
 The pyramid generator is implemented using React's useState hook to manage state and event handlers to handle user input and generate the pyramid. Here’s a brief overview of the main components:
 
-Pyramid Component
+## Pyramid Component
+
 useState Hook: Manages the height input and the generated pyramid.
 handleSubmit Function: Validates the input height and calls the generatePyramid function.
 generatePyramid Function: Generates the pyramid based on the input height and updates the state.
@@ -45,4 +47,3 @@ To learn more about Next.js, take a look at the following resources:
 Next.js Documentation - learn about Next.js features and API.
 Learn Next.js - an interactive Next.js tutorial.
 You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
-```
