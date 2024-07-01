@@ -34,13 +34,18 @@ The pyramid generator is implemented using React's useState hook to manage state
 ## Pyramid Component
 
 useState Hook: Manages the height input and the generated pyramid.
+
 handleSubmit Function: Validates the input height and calls the generatePyramid function.
+
 generatePyramid Function: Generates the pyramid based on the input height and updates the state.
 Home Page
 Renders the Pyramid component and includes the page metadata.
-Code Structure
+
+## Code Structure
 app/page.js: Contains the Home component which renders the Pyramid component.
+
 components/Pyramid.js: Contains the Pyramid component which includes the form and the logic to generate the pyramid.
+
 Learn More
 To learn more about Next.js, take a look at the following resources:
 
